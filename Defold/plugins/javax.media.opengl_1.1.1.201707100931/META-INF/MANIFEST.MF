@@ -1,0 +1,85 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: javax.media.opengl
+Archiver-Version: Plexus Archiver
+Built-By: builder
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Export-Package: com.jogamp.common,com.jogamp.common.jvm,com.jogamp.com
+ mon.net,com.jogamp.common.net.asset,com.jogamp.common.nio,com.jogamp.
+ common.os,com.jogamp.common.type,com.jogamp.common.util,com.jogamp.co
+ mmon.util.cache,com.jogamp.common.util.locks,com.jogamp.gluegen.runti
+ me,com.jogamp.gluegen.runtime.opengl,com.jogamp.graph.curve,com.jogam
+ p.graph.curve.opengl,com.jogamp.graph.curve.tess,com.jogamp.graph.fon
+ t,com.jogamp.graph.geom,com.jogamp.graph.geom.opengl,com.jogamp.graph
+ .math,com.jogamp.nativewindow,com.jogamp.nativewindow.awt,com.jogamp.
+ nativewindow.egl,com.jogamp.nativewindow.macosx,com.jogamp.nativewind
+ ow.swt,com.jogamp.nativewindow.windows,com.jogamp.nativewindow.x11,co
+ m.jogamp.newt,com.jogamp.newt.awt,com.jogamp.newt.awt.applet,com.joga
+ mp.newt.event,com.jogamp.newt.event.awt,com.jogamp.newt.opengl,com.jo
+ gamp.newt.swt,com.jogamp.newt.util,com.jogamp.opengl,com.jogamp.openg
+ l.swt,com.jogamp.opengl.util,com.jogamp.opengl.util.av,com.jogamp.ope
+ ngl.util.awt,com.jogamp.opengl.util.gl2,com.jogamp.opengl.util.glsl,c
+ om.jogamp.opengl.util.glsl.fixedfunc,com.jogamp.opengl.util.glsl.sdk,
+ com.jogamp.opengl.util.packrect,com.jogamp.opengl.util.texture,com.jo
+ gamp.opengl.util.texture.awt,com.jogamp.opengl.util.texture.spi,com.j
+ ogamp.opengl.util.texture.spi.awt,javax.media.nativewindow,javax.medi
+ a.nativewindow.util,javax.media.opengl,javax.media.opengl.awt,javax.m
+ edia.opengl.fixedfunc,javax.media.opengl.glu,javax.media.opengl.glu.g
+ l2,javax.media.opengl.glu.gl2es1,jogamp.common,jogamp.common.awt,joga
+ mp.common.jvm,jogamp.common.os,jogamp.common.util.locks,jogamp.graph.
+ curve.opengl,jogamp.graph.curve.opengl.shader,jogamp.graph.curve.tess
+ ,jogamp.graph.curve.text,jogamp.graph.font,jogamp.graph.font.typecast
+ ,jogamp.graph.font.typecast.ot,jogamp.graph.font.typecast.ot.mac,joga
+ mp.graph.font.typecast.ot.table,jogamp.graph.font.typecast.t2,jogamp.
+ graph.font.typecast.tt.engine,jogamp.graph.geom.plane,jogamp.graph.ma
+ th,jogamp.graph.math.plane,jogamp.nativewindow,jogamp.nativewindow.aw
+ t,jogamp.nativewindow.jawt,jogamp.nativewindow.jawt.macosx,jogamp.nat
+ ivewindow.jawt.windows,jogamp.nativewindow.jawt.x11,jogamp.nativewind
+ ow.macosx,jogamp.nativewindow.windows,jogamp.nativewindow.x11,jogamp.
+ nativewindow.x11.awt,jogamp.newt,jogamp.newt.awt,jogamp.newt.awt.even
+ t,jogamp.newt.driver,jogamp.newt.driver.awt,jogamp.newt.driver.bcm.vc
+ .iv,jogamp.newt.driver.linux,jogamp.newt.driver.macosx,jogamp.newt.dr
+ iver.windows,jogamp.newt.driver.x11,jogamp.newt.event,jogamp.opengl,j
+ ogamp.opengl.awt,jogamp.opengl.egl,jogamp.opengl.es1,jogamp.opengl.es
+ 2,jogamp.opengl.gl2,jogamp.opengl.gl4,jogamp.opengl.glu,jogamp.opengl
+ .glu.error,jogamp.opengl.glu.gl2,jogamp.opengl.glu.gl2.nurbs,jogamp.o
+ pengl.glu.mipmap,jogamp.opengl.glu.nurbs,jogamp.opengl.glu.registry,j
+ ogamp.opengl.glu.tessellator,jogamp.opengl.macosx.cgl,jogamp.opengl.m
+ acosx.cgl.awt,jogamp.opengl.util,jogamp.opengl.util.av,jogamp.opengl.
+ util.av.impl,jogamp.opengl.util.glsl,jogamp.opengl.util.glsl.fixedfun
+ c,jogamp.opengl.util.pngj,jogamp.opengl.util.pngj.chunks,jogamp.openg
+ l.windows.wgl,jogamp.opengl.windows.wgl.awt,jogamp.opengl.x11.glx
+Bundle-Name: Jogl
+Bundle-Version: 1.1.1.201707100931
+Bundle-ClassPath: .,lib/gluegen-rt.jar,lib/jogl-all.jar
+Bundle-NativeCode: lib/osx/libgluegen-rt.jnilib;lib/osx/libjoal.jnilib
+ ;lib/osx/libjogl_cg.jnilib;lib/osx/libjogl_desktop.jnilib;lib/osx/lib
+ jogl_mobile.jnilib;lib/osx/libnativewindow_awt.jnilib;lib/osx/libnati
+ vewindow_macosx.jnilib;lib/osx/libnewt.jnilib;osname=mac os x;process
+ or=x86,lib/osx/libgluegen-rt.jnilib;lib/osx/libjoal.jnilib;lib/osx/li
+ bjogl_cg.jnilib;lib/osx/libjogl_desktop.jnilib;lib/osx/libjogl_mobile
+ .jnilib;lib/osx/libnativewindow_awt.jnilib;lib/osx/libnativewindow_ma
+ cosx.jnilib;lib/osx/libnewt.jnilib; osname=mac os x;processor=x86-64,
+ lib/linux/x86/libgluegen-rt.so;lib/linux/x86/libjoal.so;lib/linux/x86
+ /libjocl.so;lib/linux/x86/libjogl_cg.so;lib/linux/x86/libjogl_desktop
+ .so;lib/linux/x86/libjogl_mobile.so;lib/linux/x86/libnativewindow_awt
+ .so;lib/linux/x86/libnativewindow_x11.so;lib/linux/x86/libnewt.so;osn
+ ame=linux;processor=x86,lib/linux/x86-64/libgluegen-rt.so;lib/linux/x
+ 86-64/libjoal.so;lib/linux/x86-64/libjocl.so;lib/linux/x86-64/libjogl
+ _cg.so;lib/linux/x86-64/libjogl_desktop.so;lib/linux/x86-64/libjogl_m
+ obile.so;lib/linux/x86-64/libnativewindow_awt.so;lib/linux/x86-64/lib
+ nativewindow_x11.so;lib/linux/x86-64/libnewt.so;osname=linux;processo
+ r=x86-64,lib/win32/x86/gluegen-rt.dll;lib/win32/x86/joal.dll;lib/win3
+ 2/x86/jocl.dll;lib/win32/x86/jogl_cg.dll;lib/win32/x86/jogl_desktop.d
+ ll;lib/win32/x86/jogl_mobile.dll;lib/win32/x86/nativewindow_awt.dll;l
+ ib/win32/x86/nativewindow_win32.dll;lib/win32/x86/newt.dll;osname=Win
+ 32; osname="Windows 10"; processor=x86,lib/win32/x86-64/gluegen-rt.dl
+ l;lib/win32/x86-64/joal.dll;lib/win32/x86-64/jocl.dll;lib/win32/x86-6
+ 4/jogl_cg.dll;lib/win32/x86-64/jogl_desktop.dll;lib/win32/x86-64/jogl
+ _mobile.dll;lib/win32/x86-64/nativewindow_awt.dll;lib/win32/x86-64/na
+ tivewindow_win32.dll;lib/win32/x86-64/newt.dll;osname=Win32; osname="
+ Windows 10"; processor=x86-64
+Created-By: Apache Maven
+Build-Jdk: 1.8.0_25
+Eclipse-BundleShape: dir
+

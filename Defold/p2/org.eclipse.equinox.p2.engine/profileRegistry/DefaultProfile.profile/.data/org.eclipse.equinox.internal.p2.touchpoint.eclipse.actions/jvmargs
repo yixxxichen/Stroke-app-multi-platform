@@ -1,0 +1,3 @@
+#Mon Jul 10 09:39:16 UTC 2017
+-XX\:MaxPermSize\==128M
+-Xmx=1200M

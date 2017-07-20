@@ -1,0 +1,12 @@
+eclipse.preferences.version=1
+repositories/file\:_home_builder_ci_slave_builds_cr-editor-master_build_com.dynamo.cr_com.dynamo.cr.editor-product_target_targetPlatformRepository/enabled=true
+repositories/file\:_home_builder_ci_slave_builds_cr-editor-master_build_com.dynamo.cr_com.dynamo.cr.editor-product_target_targetPlatformRepository/isSystem=false
+repositories/file\:_home_builder_ci_slave_builds_cr-editor-master_build_com.dynamo.cr_com.dynamo.cr.editor-product_target_targetPlatformRepository/name=TychoTargetPlatform
+repositories/file\:_home_builder_ci_slave_builds_cr-editor-master_build_com.dynamo.cr_com.dynamo.cr.editor-product_target_targetPlatformRepository/suffix=content.xml
+repositories/file\:_home_builder_ci_slave_builds_cr-editor-master_build_com.dynamo.cr_com.dynamo.cr.editor-product_target_targetPlatformRepository/type=org.eclipse.equinox.internal.p2.metadata.repository.LocalMetadataRepository
+repositories/file\:_home_builder_ci_slave_builds_cr-editor-master_build_com.dynamo.cr_com.dynamo.cr.editor-product_target_targetPlatformRepository/uri=file\:/home/builder/ci_slave/builds/cr-editor-master/build/com.dynamo.cr/com.dynamo.cr.editor-product/target/targetPlatformRepository/
+repositories/file\:_home_builder_ci_slave_builds_cr-editor-master_build_com.dynamo.cr_com.dynamo.cr.editor-product_target_targetPlatformRepository/version=0.0.1
+repositories/http\:__d.defold.com_stable_update/count=1
+repositories/http\:__d.defold.com_stable_update/enabled=true
+repositories/http\:__d.defold.com_stable_update/isSystem=false
+repositories/http\:__d.defold.com_stable_update/uri=http\://d.defold.com/stable/update/

@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: com.dynamo.cr.parted;singleton:=true
+Archiver-Version: Plexus Archiver
+Built-By: builder
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,slf4j;bundle-v
+ ersion="1.6.4",com.sun.jna;bundle-version="3.4.1",com.dynamo.cr.commo
+ n;bundle-version="1.0.0",com.dynamo.cr.sceneed;bundle-version="1.0.0"
+ ,com.dynamo.cr.editor.core;bundle-version="1.0.0",com.dynamo.cr.edito
+ r.ui;bundle-version="1.0.0",com.dynamo.cr.properties;bundle-version="
+ 1.0.0",org.eclipse.core.resources;bundle-version="3.7.100",org.eclips
+ e.core.expressions;bundle-version="3.4.300",javax.media.opengl;bundle
+ -version="1.1.1",com.dynamo.cr.tileeditor;bundle-version="1.0.0",com.
+ google.inject;bundle-version="3.0.0",org.eclipse.ui.navigator,com.dyn
+ amo.cr.go;bundle-version="1.0.0",com.dynamo.cr.bob;bundle-version="1.
+ 0.0"
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: DYNAMO
+Export-Package: com.dynamo.cr.parted,com.dynamo.cr.parted.curve,com.dy
+ namo.cr.parted.nodes,com.dynamo.cr.parted.operations
+Bundle-Name: Parted
+Bundle-Version: 1.0.0.201707100931
+Bundle-Activator: com.dynamo.cr.parted.ParticleEditorPlugin
+Created-By: Apache Maven
+Build-Jdk: 1.8.0_25
+Eclipse-BundleShape: dir
+

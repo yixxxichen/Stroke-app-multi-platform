@@ -1,0 +1,17 @@
+eclipse.preferences.version=1
+repositories/http\:__d.defold.com_archive_8c2083883fdf321a3fa2aa1a1a5d319a82635c10_stable_editor_repository/enabled=false
+repositories/http\:__d.defold.com_archive_8c2083883fdf321a3fa2aa1a1a5d319a82635c10_stable_editor_repository/isSystem=true
+repositories/http\:__d.defold.com_archive_8c2083883fdf321a3fa2aa1a1a5d319a82635c10_stable_editor_repository/name=com.dynamo.cr.editor-product
+repositories/http\:__d.defold.com_archive_8c2083883fdf321a3fa2aa1a1a5d319a82635c10_stable_editor_repository/suffix=content.xml
+repositories/http\:__d.defold.com_archive_8c2083883fdf321a3fa2aa1a1a5d319a82635c10_stable_editor_repository/type=org.eclipse.equinox.internal.p2.metadata.repository.LocalMetadataRepository
+repositories/http\:__d.defold.com_archive_8c2083883fdf321a3fa2aa1a1a5d319a82635c10_stable_editor_repository/uri=http\://d.defold.com/archive/8c2083883fdf321a3fa2aa1a1a5d319a82635c10/stable/editor/repository
+repositories/http\:__d.defold.com_archive_8c2083883fdf321a3fa2aa1a1a5d319a82635c10_stable_editor_repository/version=1.0.0
+repositories/http\:__d.defold.com_stable_update/count=1
+repositories/http\:__d.defold.com_stable_update/description=
+repositories/http\:__d.defold.com_stable_update/enabled=true
+repositories/http\:__d.defold.com_stable_update/name="Defold"
+repositories/http\:__d.defold.com_stable_update/provider=
+repositories/http\:__d.defold.com_stable_update/suffix=compositeContent.xml
+repositories/http\:__d.defold.com_stable_update/type=org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository
+repositories/http\:__d.defold.com_stable_update/uri=http\://d.defold.com/stable/update/
+repositories/http\:__d.defold.com_stable_update/version=1.0.0

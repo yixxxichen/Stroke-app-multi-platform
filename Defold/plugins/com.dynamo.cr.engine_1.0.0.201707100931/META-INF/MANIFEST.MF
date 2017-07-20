@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: com.dynamo.cr.engine;singleton:=true
+Archiver-Version: Plexus Archiver
+Built-By: builder
+Require-Bundle: org.eclipse.core.runtime,com.dynamo.cr.editor.core;bun
+ dle-version="1.0.0"
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: DYNAMO
+Export-Package: com.dynamo.cr.engine
+Bundle-Name: Engine
+Bundle-Version: 1.0.0.201707100931
+Bundle-Activator: com.dynamo.cr.engine.Engine
+Created-By: Apache Maven
+Build-Jdk: 1.8.0_25
+Eclipse-BundleShape: dir
+

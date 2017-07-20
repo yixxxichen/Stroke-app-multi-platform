@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: com.dynamo.cr.target;singleton:=true
+Archiver-Version: Plexus Archiver
+Built-By: builder
+Require-Bundle: org.eclipse.core.runtime,com.google.inject;bundle-vers
+ ion="3.0.0",org.eclipse.ui.workbench;bundle-version="3.7.0",org.eclip
+ se.ui;bundle-version="3.7.0",com.dynamo.cr.common;bundle-version="1.0
+ .0",org.eclipse.core.expressions;bundle-version="3.4.300",com.dynamo.
+ cr.engine;bundle-version="1.0.0",com.dynamo.cr.editor.core;bundle-ver
+ sion="1.0.0",com.dynamo.cr.editor.ui;bundle-version="1.0.0",org.eclip
+ se.ui.console;bundle-version="3.5.100",com.google.common;bundle-versi
+ on="0.0.9",slf4j;bundle-version="1.6.4",javax.inject;bundle-version="
+ 1.0.0"
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: DYNAMO
+Import-Package: com.dynamo.bob.fs,com.dynamo.bob.pipeline,com.dynamo.c
+ r.client
+Export-Package: com.dynamo.cr.target.bundle,com.dynamo.cr.target.core,
+ com.dynamo.cr.target.sign
+Bundle-Name: Core
+Bundle-Version: 1.0.0.201707100931
+Bundle-ClassPath: .,lib/jdom-2.0.1.jar
+Bundle-Activator: com.dynamo.cr.target.core.TargetPlugin
+Created-By: Apache Maven
+Build-Jdk: 1.8.0_25
+Eclipse-BundleShape: dir
+
