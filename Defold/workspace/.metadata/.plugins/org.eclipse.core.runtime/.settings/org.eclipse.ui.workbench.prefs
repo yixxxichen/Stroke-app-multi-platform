@@ -1,3 +1,4 @@
 //org.eclipse.ui.commands/state/com.dynamo.cr.guied.commands.selectLayout/org.eclipse.ui.commands.radioState=initial
 //org.eclipse.ui.commands/state/com.dynamo.cr.target.commands.selectTarget/org.eclipse.ui.commands.radioState=initial
+ENABLED_DECORATORS=com.dynamo.cr.editor.decorators.branchStatus\:true,com.dynamo.cr.editor.decorators.problemLabel\:true,com.dynamo.cr.sceneed.ui.sceneDecorator\:true,org.eclipse.ui.LinkedResourceDecorator\:false,org.eclipse.ui.VirtualResourceDecorator\:true,org.eclipse.ui.ContentTypeDecorator\:true,org.eclipse.ui.ResourceFilterDecorator\:false,
 eclipse.preferences.version=1

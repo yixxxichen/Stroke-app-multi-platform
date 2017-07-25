@@ -1,0 +1,36 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: com.dynamo.cr.dgit;singleton:=true
+Archiver-Version: Plexus Archiver
+Built-By: builder
+Require-Bundle: org.eclipse.core.runtime;bundle-version="3.7.0",com.dy
+ namo.cr.common;bundle-version="1.0.0",com.google.common;bundle-versio
+ n="0.0.9",javax.servlet;bundle-version="2.5.0",slf4j;bundle-version="
+ 1.6.4"
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: DYNAMO
+Export-Package: com.dynamo.server.dgit;uses:="com.dynamo.cr.protocol.p
+ roto,org.slf4j",com.jcraft.jsch,com.jcraft.jsch.jce,com.jcraft.jsch.j
+ craft,com.jcraft.jsch.jgss,org.eclipse.jgit,org.eclipse.jgit.api,org.
+ eclipse.jgit.api.errors,org.eclipse.jgit.blame,org.eclipse.jgit.diff,
+ org.eclipse.jgit.dircache,org.eclipse.jgit.errors,org.eclipse.jgit.ev
+ ents,org.eclipse.jgit.fnmatch,org.eclipse.jgit.http.server,org.eclips
+ e.jgit.http.server.glue,org.eclipse.jgit.http.server.resolver,org.ecl
+ ipse.jgit.ignore,org.eclipse.jgit.lib,org.eclipse.jgit.merge,org.ecli
+ pse.jgit.nls,org.eclipse.jgit.notes,org.eclipse.jgit.patch,org.eclips
+ e.jgit.revplot,org.eclipse.jgit.revwalk,org.eclipse.jgit.revwalk.filt
+ er,org.eclipse.jgit.storage.dfs,org.eclipse.jgit.storage.file,org.ecl
+ ipse.jgit.storage.pack,org.eclipse.jgit.transport,org.eclipse.jgit.tr
+ ansport.resolver,org.eclipse.jgit.treewalk,org.eclipse.jgit.treewalk.
+ filter,org.eclipse.jgit.util,org.eclipse.jgit.util.io
+Bundle-Name: Git
+Bundle-Version: 1.0.0.201707240855
+Bundle-ClassPath: .,lib/jsch-0.1.44-1.jar,lib/org.eclipse.jgit-1.2.0.2
+ 01112221803-r.jar,lib/org.eclipse.jgit.http.server-1.2.0.201112221803
+ -r.jar
+Bundle-Activator: com.dynamo.server.dgit.DGit
+Created-By: Apache Maven
+Build-Jdk: 1.8.0_25
+Eclipse-BundleShape: dir
+

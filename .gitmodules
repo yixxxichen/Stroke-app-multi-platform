@@ -1,0 +1,6 @@
+[submodule "MonoGame"]
+	path = MonoGame
+	url = https://github.com/MonoGame/MonoGame.git
+[submodule "phaser-ce"]
+	path = phaser-ce
+	url = https://github.com/photonstorm/phaser-ce.git

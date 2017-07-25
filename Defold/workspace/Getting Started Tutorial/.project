@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>Getting Started Tutorial</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>com.dynamo.cr.editor.builders.contentbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>com.dynamo.cr.editor.core.crnature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>content</name>
+			<type>2</type>
+			<locationURI>crepo://cr.defold.se:9998/projects/44173/72915/branches/master</locationURI>
+		</link>
+		<link>
+			<name>content/builtins</name>
+			<type>2</type>
+			<locationURI>bundle:/builtins/?com.dynamo.cr.builtins</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>
