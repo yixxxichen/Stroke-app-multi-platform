@@ -7,3 +7,6 @@
 [submodule "sense-js"]
 	path = sense-js
 	url = https://github.com/ehzhang/sense-js.git
+[submodule "nunchuck"]
+	path = nunchuck
+	url = https://github.com/ehzhang/nunchuck.git
