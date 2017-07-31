@@ -11523,3 +11523,12 @@ java.lang.NullPointerException
 	at com.dynamo.upnp.SSDP.update(SSDP.java:257)
 	at com.dynamo.cr.target.core.TargetService.run(TargetService.java:164)
 	at java.lang.Thread.run(Unknown Source)
+!SESSION 2017-07-27 15:27:19.099 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-07-27 15:27:25.662
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.

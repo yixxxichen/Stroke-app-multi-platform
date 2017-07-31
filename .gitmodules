@@ -10,3 +10,6 @@
 [submodule "nunchuck"]
 	path = nunchuck
 	url = https://github.com/ehzhang/nunchuck.git
+[submodule "Full-Tilt"]
+	path = Full-Tilt
+	url = https://github.com/adtile/Full-Tilt.git
